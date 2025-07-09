@@ -1,0 +1,184 @@
+Work on GPU:  1
+load_weight 304
+Train set size: 37553
+Validation set size: 4000
+batch_size: 20
+Total Parameters: 60.290M
+[Epoch 1] Train time:15.92, Training accuracy:0.1542. Loss: 6.226 LR:0.000002
+[Epoch 1] Validation accuracy:0.4985, Loss:1.422, f1 0.489913, score 0.492747
+best_acc:0.4985
+[Epoch 2] Train time:15.58, Training accuracy:0.3647. Loss: 5.245 LR:0.000002
+[Epoch 2] Validation accuracy:0.5430, Loss:1.289, f1 0.541051, score 0.541694
+best_acc:0.543
+[Epoch 3] Train time:15.38, Training accuracy:0.4103. Loss: 5.046 LR:0.000002
+[Epoch 3] Validation accuracy:0.5600, Loss:1.242, f1 0.559914, score 0.559942
+best_acc:0.56
+[Epoch 4] Train time:15.72, Training accuracy:0.4353. Loss: 4.912 LR:0.000002
+[Epoch 4] Validation accuracy:0.5755, Loss:1.216, f1 0.576253, score 0.576005
+best_acc:0.5755
+[Epoch 5] Train time:15.51, Training accuracy:0.4535. Loss: 4.827 LR:0.000002
+[Epoch 5] Validation accuracy:0.5805, Loss:1.193, f1 0.580855, score 0.580738
+best_acc:0.5805
+[Epoch 6] Train time:15.40, Training accuracy:0.4702. Loss: 1.550 LR:0.000002
+[Epoch 6] Validation accuracy:0.5835, Loss:1.154, f1 0.583501, score 0.583501
+best_acc:0.5835
+[Epoch 7] Train time:15.44, Training accuracy:0.4824. Loss: 1.519 LR:0.000002
+[Epoch 7] Validation accuracy:0.5948, Loss:1.135, f1 0.593906, score 0.594201
+best_acc:0.5948
+[Epoch 8] Train time:15.58, Training accuracy:0.4893. Loss: 1.500 LR:0.000002
+[Epoch 8] Validation accuracy:0.5965, Loss:1.126, f1 0.597334, score 0.597059
+best_acc:0.5965
+[Epoch 9] Train time:15.46, Training accuracy:0.4881. Loss: 1.493 LR:0.000002
+[Epoch 9] Validation accuracy:0.5982, Loss:1.112, f1 0.599145, score 0.598833
+best_acc:0.5982
+[Epoch 10] Train time:15.40, Training accuracy:0.5011. Loss: 1.467 LR:0.000002
+[Epoch 10] Validation accuracy:0.5985, Loss:1.108, f1 0.599932, score 0.599459
+best_acc:0.5985
+[Epoch 11] Train time:15.35, Training accuracy:0.5043. Loss: 1.452 LR:0.000002
+[Epoch 11] Validation accuracy:0.6002, Loss:1.097, f1 0.599862, score 0.599973
+best_acc:0.6002
+[Epoch 12] Train time:15.50, Training accuracy:0.5159. Loss: 1.429 LR:0.000002
+[Epoch 12] Validation accuracy:0.6028, Loss:1.088, f1 0.602199, score 0.602398
+best_acc:0.6028
+[Epoch 13] Train time:15.45, Training accuracy:0.5181. Loss: 1.411 LR:0.000002
+[Epoch 13] Validation accuracy:0.6048, Loss:1.085, f1 0.604803, score 0.604802
+best_acc:0.6048
+[Epoch 14] Train time:15.39, Training accuracy:0.5249. Loss: 1.396 LR:0.000002
+[Epoch 14] Validation accuracy:0.6018, Loss:1.084, f1 0.602338, score 0.602160
+[Epoch 15] Train time:15.53, Training accuracy:0.5299. Loss: 1.381 LR:0.000002
+[Epoch 15] Validation accuracy:0.6030, Loss:1.076, f1 0.603541, score 0.603362
+[Epoch 16] Train time:15.71, Training accuracy:0.5332. Loss: 1.372 LR:0.000001
+[Epoch 16] Validation accuracy:0.6072, Loss:1.070, f1 0.607532, score 0.607422
+best_acc:0.6072
+[Epoch 17] Train time:15.39, Training accuracy:0.5384. Loss: 1.354 LR:0.000001
+[Epoch 17] Validation accuracy:0.6085, Loss:1.066, f1 0.609542, score 0.609198
+best_acc:0.6085
+[Epoch 18] Train time:15.51, Training accuracy:0.5426. Loss: 1.347 LR:0.000001
+[Epoch 18] Validation accuracy:0.6110, Loss:1.064, f1 0.611973, score 0.611652
+best_acc:0.611
+[Epoch 19] Train time:15.39, Training accuracy:0.5470. Loss: 1.338 LR:0.000001
+[Epoch 19] Validation accuracy:0.6080, Loss:1.061, f1 0.609930, score 0.609293
+[Epoch 20] Train time:15.53, Training accuracy:0.5466. Loss: 1.336 LR:0.000001
+[Epoch 20] Validation accuracy:0.6145, Loss:1.051, f1 0.614388, score 0.614425
+best_acc:0.6145
+[Epoch 21] Train time:15.14, Training accuracy:0.5524. Loss: 1.319 LR:0.000001
+[Epoch 21] Validation accuracy:0.6132, Loss:1.050, f1 0.613973, score 0.613718
+[Epoch 22] Train time:14.63, Training accuracy:0.5602. Loss: 1.307 LR:0.000001
+[Epoch 22] Validation accuracy:0.6160, Loss:1.053, f1 0.617390, score 0.616931
+best_acc:0.616
+[Epoch 23] Train time:14.61, Training accuracy:0.5589. Loss: 1.299 LR:0.000001
+[Epoch 23] Validation accuracy:0.6165, Loss:1.046, f1 0.617111, score 0.616909
+best_acc:0.6165
+[Epoch 24] Train time:14.84, Training accuracy:0.5598. Loss: 1.299 LR:0.000001
+[Epoch 24] Validation accuracy:0.6150, Loss:1.043, f1 0.615371, score 0.615249
+[Epoch 25] Train time:14.67, Training accuracy:0.5686. Loss: 1.284 LR:0.000001
+[Epoch 25] Validation accuracy:0.6138, Loss:1.045, f1 0.614670, score 0.614383
+[Epoch 26] Train time:17.55, Training accuracy:0.5688. Loss: 1.277 LR:0.000001
+[Epoch 26] Validation accuracy:0.6188, Loss:1.039, f1 0.618801, score 0.618800
+best_acc:0.6188
+[Epoch 27] Train time:19.33, Training accuracy:0.5723. Loss: 1.263 LR:0.000001
+[Epoch 27] Validation accuracy:0.6180, Loss:1.040, f1 0.618348, score 0.618233
+[Epoch 28] Train time:15.25, Training accuracy:0.5731. Loss: 1.263 LR:0.000001
+[Epoch 28] Validation accuracy:0.6218, Loss:1.037, f1 0.622457, score 0.622240
+Model saved.
+best_acc:0.6218
+[Epoch 29] Train time:16.84, Training accuracy:0.5770. Loss: 1.256 LR:0.000001
+[Epoch 29] Validation accuracy:0.6190, Loss:1.036, f1 0.618261, score 0.618505
+[Epoch 30] Train time:15.15, Training accuracy:0.5867. Loss: 1.237 LR:0.000001
+[Epoch 30] Validation accuracy:0.6168, Loss:1.038, f1 0.617374, score 0.617184
+[Epoch 31] Train time:15.07, Training accuracy:0.5814. Loss: 1.245 LR:0.000001
+[Epoch 31] Validation accuracy:0.6210, Loss:1.030, f1 0.621133, score 0.621089
+[Epoch 32] Train time:15.15, Training accuracy:0.5892. Loss: 1.223 LR:0.000001
+[Epoch 32] Validation accuracy:0.6240, Loss:1.030, f1 0.624613, score 0.624411
+Model saved.
+best_acc:0.624
+[Epoch 33] Train time:15.00, Training accuracy:0.5914. Loss: 1.222 LR:0.000001
+[Epoch 33] Validation accuracy:0.6235, Loss:1.030, f1 0.623610, score 0.623574
+[Epoch 34] Train time:14.83, Training accuracy:0.5940. Loss: 1.212 LR:0.000001
+[Epoch 34] Validation accuracy:0.6202, Loss:1.030, f1 0.620138, score 0.620159
+[Epoch 35] Train time:14.83, Training accuracy:0.5926. Loss: 1.205 LR:0.000001
+[Epoch 35] Validation accuracy:0.6255, Loss:1.025, f1 0.625337, score 0.625391
+Model saved.
+best_acc:0.6255
+[Epoch 36] Train time:14.97, Training accuracy:0.5992. Loss: 1.200 LR:0.000001
+[Epoch 36] Validation accuracy:0.6192, Loss:1.030, f1 0.619829, score 0.619621
+[Epoch 37] Train time:14.85, Training accuracy:0.6039. Loss: 1.183 LR:0.000001
+[Epoch 37] Validation accuracy:0.6242, Loss:1.025, f1 0.624319, score 0.624280
+[Epoch 38] Train time:14.91, Training accuracy:0.6085. Loss: 1.172 LR:0.000001
+[Epoch 38] Validation accuracy:0.6240, Loss:1.026, f1 0.623702, score 0.623800
+[Epoch 39] Train time:14.96, Training accuracy:0.6103. Loss: 1.173 LR:0.000001
+[Epoch 39] Validation accuracy:0.6228, Loss:1.025, f1 0.622626, score 0.622683
+[Epoch 40] Train time:14.93, Training accuracy:0.6104. Loss: 1.165 LR:0.000001
+[Epoch 40] Validation accuracy:0.6208, Loss:1.025, f1 0.620765, score 0.620777
+[Epoch 41] Train time:14.87, Training accuracy:0.6147. Loss: 1.159 LR:0.000001
+[Epoch 41] Validation accuracy:0.6245, Loss:1.025, f1 0.624800, score 0.624701
+[Epoch 42] Train time:15.02, Training accuracy:0.6173. Loss: 1.149 LR:0.000001
+[Epoch 42] Validation accuracy:0.6232, Loss:1.022, f1 0.623001, score 0.623067
+[Epoch 43] Train time:14.82, Training accuracy:0.6173. Loss: 1.150 LR:0.000001
+[Epoch 43] Validation accuracy:0.6240, Loss:1.021, f1 0.624489, score 0.624328
+[Epoch 44] Train time:15.03, Training accuracy:0.6239. Loss: 1.131 LR:0.000001
+[Epoch 44] Validation accuracy:0.6258, Loss:1.023, f1 0.625826, score 0.625817
+Model saved.
+best_acc:0.6258
+[Epoch 45] Train time:14.99, Training accuracy:0.6231. Loss: 1.139 LR:0.000001
+[Epoch 45] Validation accuracy:0.6230, Loss:1.023, f1 0.623247, score 0.623166
+[Epoch 46] Train time:14.78, Training accuracy:0.6257. Loss: 1.127 LR:0.000001
+[Epoch 46] Validation accuracy:0.6242, Loss:1.023, f1 0.624869, score 0.624648
+[Epoch 47] Train time:14.79, Training accuracy:0.6262. Loss: 1.124 LR:0.000001
+[Epoch 47] Validation accuracy:0.6265, Loss:1.021, f1 0.627089, score 0.626894
+Model saved.
+best_acc:0.6265
+[Epoch 48] Train time:14.88, Training accuracy:0.6295. Loss: 1.119 LR:0.000001
+[Epoch 48] Validation accuracy:0.6252, Loss:1.024, f1 0.625133, score 0.625155
+[Epoch 49] Train time:14.96, Training accuracy:0.6278. Loss: 1.120 LR:0.000001
+[Epoch 49] Validation accuracy:0.6237, Loss:1.026, f1 0.623876, score 0.623818
+[Epoch 50] Train time:14.83, Training accuracy:0.6326. Loss: 1.104 LR:0.000001
+[Epoch 50] Validation accuracy:0.6258, Loss:1.025, f1 0.625356, score 0.625502
+[Epoch 51] Train time:14.80, Training accuracy:0.6395. Loss: 1.100 LR:0.000001
+[Epoch 51] Validation accuracy:0.6295, Loss:1.020, f1 0.629569, score 0.629546
+Model saved.
+best_acc:0.6295
+[Epoch 52] Train time:14.90, Training accuracy:0.6377. Loss: 1.106 LR:0.000001
+[Epoch 52] Validation accuracy:0.6280, Loss:1.023, f1 0.628683, score 0.628458
+[Epoch 53] Train time:14.80, Training accuracy:0.6404. Loss: 1.091 LR:0.000001
+[Epoch 53] Validation accuracy:0.6268, Loss:1.022, f1 0.626749, score 0.626766
+[Epoch 54] Train time:14.97, Training accuracy:0.6460. Loss: 1.077 LR:0.000001
+[Epoch 54] Validation accuracy:0.6258, Loss:1.026, f1 0.625869, score 0.625846
+[Epoch 55] Train time:14.88, Training accuracy:0.6450. Loss: 1.085 LR:0.000001
+[Epoch 55] Validation accuracy:0.6263, Loss:1.023, f1 0.626045, score 0.626129
+[Epoch 56] Train time:15.06, Training accuracy:0.6473. Loss: 1.077 LR:0.000001
+[Epoch 56] Validation accuracy:0.6285, Loss:1.022, f1 0.628477, score 0.628485
+[Epoch 57] Train time:14.72, Training accuracy:0.6488. Loss: 1.065 LR:0.000001
+[Epoch 57] Validation accuracy:0.6285, Loss:1.021, f1 0.628773, score 0.628683
+[Epoch 58] Train time:14.61, Training accuracy:0.6516. Loss: 1.063 LR:0.000001
+[Epoch 58] Validation accuracy:0.6268, Loss:1.023, f1 0.626672, score 0.626714
+[Epoch 59] Train time:14.67, Training accuracy:0.6587. Loss: 1.044 LR:0.000001
+[Epoch 59] Validation accuracy:0.6260, Loss:1.026, f1 0.626452, score 0.626303
+[Epoch 60] Train time:14.49, Training accuracy:0.6592. Loss: 1.045 LR:0.000001
+[Epoch 60] Validation accuracy:0.6232, Loss:1.029, f1 0.622979, score 0.623052
+[Epoch 61] Train time:14.34, Training accuracy:0.6590. Loss: 1.049 LR:0.000001
+[Epoch 61] Validation accuracy:0.6235, Loss:1.026, f1 0.623295, score 0.623362
+[Epoch 62] Train time:14.69, Training accuracy:0.6586. Loss: 1.040 LR:0.000001
+[Epoch 62] Validation accuracy:0.6272, Loss:1.027, f1 0.627173, score 0.627182
+[Epoch 63] Train time:14.55, Training accuracy:0.6651. Loss: 1.030 LR:0.000001
+[Epoch 63] Validation accuracy:0.6232, Loss:1.030, f1 0.622841, score 0.622959
+[Epoch 64] Train time:14.52, Training accuracy:0.6619. Loss: 1.033 LR:0.000001
+[Epoch 64] Validation accuracy:0.6242, Loss:1.034, f1 0.624081, score 0.624121
+[Epoch 65] Train time:14.66, Training accuracy:0.6698. Loss: 1.026 LR:0.000001
+[Epoch 65] Validation accuracy:0.6225, Loss:1.028, f1 0.622972, score 0.622816
+[Epoch 66] Train time:14.81, Training accuracy:0.6709. Loss: 1.013 LR:0.000001
+[Epoch 66] Validation accuracy:0.6237, Loss:1.029, f1 0.624016, score 0.623912
+[Epoch 67] Train time:15.20, Training accuracy:0.6702. Loss: 1.016 LR:0.000001
+[Epoch 67] Validation accuracy:0.6250, Loss:1.028, f1 0.625001, score 0.625000
+[Epoch 68] Train time:15.22, Training accuracy:0.6758. Loss: 1.008 LR:0.000001
+[Epoch 68] Validation accuracy:0.6212, Loss:1.033, f1 0.621659, score 0.621507
+[Epoch 69] Train time:15.04, Training accuracy:0.6738. Loss: 1.003 LR:0.000001
+[Epoch 69] Validation accuracy:0.6248, Loss:1.033, f1 0.624486, score 0.624590
+[Epoch 70] Train time:14.83, Training accuracy:0.6767. Loss: 1.006 LR:0.000000
+[Epoch 70] Validation accuracy:0.6235, Loss:1.029, f1 0.623423, score 0.623448
+[Epoch 71] Train time:14.79, Training accuracy:0.6770. Loss: 1.001 LR:0.000000
+[Epoch 71] Validation accuracy:0.6228, Loss:1.035, f1 0.623229, score 0.623087
+[Epoch 72] Train time:14.91, Training accuracy:0.6808. Loss: 0.989 LR:0.000000
+[Epoch 72] Validation accuracy:0.6225, Loss:1.033, f1 0.622769, score 0.622680
+[Epoch 73] Train time:15.07, Training accuracy:0.6857. Loss: 0.982 LR:0.000000
+[Epoch 73] Validation accuracy:0.6245, Loss:1.035, f1 0.623964, score 0.624141
