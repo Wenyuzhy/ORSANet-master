@@ -5,7 +5,7 @@ Facial expression recognition (FER) is a challenging task due to pervasive occlu
 
 ### Preparation
 - Preparing Data
-  RAF-DB, AffectNet and Occlu-FER from here
+  Download [RAF-DB](http://www.whdeng.cn/RAF/model1.html#dataset), [AffectNet](https://mohammadmahoor.com/pages/databases/affectnet/), RAF-DB_valid_occlu and Occlu-FER.
   As an example, assume we wish to run RAF-DB. We need to make sure it have a structure like following:
 
 	```
@@ -20,17 +20,16 @@ Facial expression recognition (FER) is a challenging task due to pervasive occlu
 		     ...
 	```
 
-- Pretrained model weights
-    Dowonload pretrain weights:
-    Image backbone & Landmark detector from here.
-    Segmentation Network from here. 
-    Put entire `pretrain` folder under `models` folder.
+- Pretrained model weights:
+  Image backbone & Landmark detector from [here](https://drive.google.com/drive/folders/1X9pE-NmyRwvBGpVzJOEvLqRPRfk_Siwq).
+  Segmentation Network from [here](https://github.com/Kartik-3004/SegFace)(Swin_Base	224	LaPa). 
+  Put entire `pretrain` folder under `models` folder.
 
 	```
 	- models/pretrain/
 		 ir50.pth
 		 mobilefacenet_model_best.pth.tar
-         model_299.pt
+  		 model_299.pt
 		     ...
 	```
 
