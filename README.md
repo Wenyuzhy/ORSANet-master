@@ -4,8 +4,8 @@
 Facial expression recognition (FER) is a challenging task due to pervasive occlusion and dataset biases. In response, we present ORSANet, which introduces the following three key contributions: First, we introduce auxiliary multi-modal semantic guidance to disambiguate facial occlusion and learn high-level semantic knowledge, which is two-fold: 1) we introduce semantic segmentation maps as dense semantics prior to generate semantics-enhanced facial representations; 2) we introduce facial landmarks as sparse geometric prior to mitigate intrinsic noises in FER, such as identity and gender biases. Second, to facilitate the effective incorporation of these two multi-modal priors, we customize a Multi-scale Cross-interaction Module (MCM) to adaptively fuse the landmark feature and semantics-enhanced representations within different scales. Third, we design a Dynamic Adversarial Repulsion Enhancement Loss (DARELoss) that dynamically adjusts the margins of ambiguous classes, further enhancing the model's ability to distinguish similar expressions. We further construct the first occlusion-oriented FER dataset to facilitate specialized robustness analysis on various real-world occlusion conditions, dubbed Occlu-FER.
 
 ### Preparation
-- Preparing Data
-  Download [RAF-DB](http://www.whdeng.cn/RAF/model1.html#dataset), [AffectNet](https://mohammadmahoor.com/pages/databases/affectnet/), RAF-DB_valid_occlu and Occlu-FER.
+- Preparing Data:
+  Download [RAF-DB](http://www.whdeng.cn/RAF/model1.html#dataset), [AffectNet](https://mohammadmahoor.com/pages/databases/affectnet/), [RAF-DB_valid_occlu and Occlu-FER](https://drive.google.com/drive/folders/1WIw_x-k8D8LHW_jASuAcfHQBESHXUxwE?usp=drive_link).
   As an example, assume we wish to run RAF-DB. We need to make sure it have a structure like following:
 
 	```
