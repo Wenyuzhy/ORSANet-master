@@ -22,7 +22,7 @@ Facial expression recognition (FER) is a challenging task due to pervasive occlu
 
 - Pretrained model weights:
   Image backbone & Landmark detector from [here](https://drive.google.com/drive/folders/1X9pE-NmyRwvBGpVzJOEvLqRPRfk_Siwq).
-  Segmentation Network from [here](https://github.com/Kartik-3004/SegFace)(Swin_Base	224	LaPa). 
+  Segmentation Network from [here](https://github.com/Kartik-3004/SegFace) (Swin_Base	224	LaPa). 
   Put entire `pretrain` folder under `models` folder.
 
 	```
