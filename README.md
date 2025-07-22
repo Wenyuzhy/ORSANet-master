@@ -49,5 +49,19 @@ python train.py --gpu 0 --batch_size 20
 You may adjust batch_size based on your # of GPUs. We provide the log in  `log` folder. You may run several times to get the best results. 
 
 
+## Citations
+If you find our work useful in your research, please consider citing:
+
+```bibtex
+@misc{zhai2025rethinkingocclusionfersemanticaware,
+      title={Rethinking Occlusion in FER: A Semantic-Aware Perspective and Go Beyond}, 
+      author={Huiyu Zhai and Xingxing Yang and Yalan Ye and Chenyang Li and Bin Fan and Changze Li},
+      year={2025},
+      eprint={2507.15401},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2507.15401}, 
+}
+```
 
 
