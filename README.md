@@ -53,14 +53,11 @@ You may adjust batch_size based on your # of GPUs. We provide the log in  `log` 
 If you find our work useful in your research, please consider citing:
 
 ```bibtex
-@misc{zhai2025rethinkingocclusionfersemanticaware,
-      title={Rethinking Occlusion in FER: A Semantic-Aware Perspective and Go Beyond}, 
-      author={Huiyu Zhai and Xingxing Yang and Yalan Ye and Chenyang Li and Bin Fan and Changze Li},
-      year={2025},
-      eprint={2507.15401},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2507.15401}, 
+@article{zhai2025rethinking,
+  title={Rethinking Occlusion in FER: A Semantic-Aware Perspective and Go Beyond},
+  author={Zhai, Huiyu and Yang, Xingxing and Ye, Yalan and Li, Chenyang and Fan, Bin and Li, Changze},
+  journal={arXiv preprint arXiv:2507.15401},
+  year={2025}
 }
 ```
 
