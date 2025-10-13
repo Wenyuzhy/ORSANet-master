@@ -6,7 +6,6 @@ from torchvision import transforms
 
 import argparse
 import torchvision.datasets as datasets
-from data.dataset_ferplus import FerPlusDataset
 from sklearn.metrics import f1_score
 from time import time
 from utils import *
@@ -135,7 +134,7 @@ def run_training():
 
     CE_criterion = torch.nn.CrossEntropyLoss()
     lsce_criterion = LabelSmoothingCrossEntropy(smoothing=0.2)
-    ACLoss_criterion = DRAELoss()
+    DRAELoss_criterion = DRAELoss()
 
     best_acc = 0
     for i in range(1, args.epochs + 1):
@@ -153,11 +152,11 @@ def run_training():
 
             CE_loss = CE_criterion(outputs, targets)
             lsce_loss = lsce_criterion(outputs, targets)
-            ACL_loss = ACLoss_criterion(outputs, targets)
+            DRAE_loss = DRAELoss_criterion(outputs, targets)
             
             loss = CE_loss
             if(i > args.use_drae):
-                loss += ACL_loss * args.weight_drae
+                loss += DRAE_loss * args.weight_drae
             else:
                 loss += 2 * lsce_loss
             loss.backward()
@@ -167,11 +166,11 @@ def run_training():
             outputs, features = model(imgs)
             CE_loss = CE_criterion(outputs, targets)
             lsce_loss = lsce_criterion(outputs, targets)
-            ACL_loss = ACLoss_criterion(outputs, targets)
+            DRAE_loss = DRAELoss_criterion(outputs, targets)
             
             loss = CE_loss
             if(i > args.use_drae):
-                loss += ACL_loss * args.weight_drae
+                loss += DRAE_loss * args.weight_drae
             else:
                 loss += 2 * lsce_loss
             loss.backward() # make sure to do a full forward pass
