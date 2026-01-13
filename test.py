@@ -105,7 +105,7 @@ def test():
         elif args.dataset == "affectnet8":
             labels_name = ['NE', 'HA', 'SA', 'SU', 'FE', 'DI', "AN", "CO"]
         elif args.dataset == "occlu-fer":
-            labels_name = ['AN', 'CO', 'DI', 'FE', 'HA', 'NE', "SA", "SU"]
+            labels_name = ['AN', 'DI', 'FE', 'HA', 'NE', "SA", "SU"]
 
         all_features = np.concatenate(all_features, axis=0)
         all_labels = np.concatenate(all_labels, axis=0)
