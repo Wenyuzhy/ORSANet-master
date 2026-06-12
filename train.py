@@ -168,12 +168,11 @@ def run_training():
             lsce_loss = lsce_criterion(outputs, targets)
             DRAE_loss = DRAELoss_criterion(outputs, targets)
             
-            loss = CE_loss
+            loss = CE_loss + lsce_loss
             if(i > args.use_drae):
                 loss += DRAE_loss * args.weight_drae
-            else:
-                loss += 2 * lsce_loss
-            loss.backward() # make sure to do a full forward pass
+                
+            loss.backward()
             optimizer.second_step(zero_grad=True)
 
             train_loss += loss
